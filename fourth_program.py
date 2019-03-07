@@ -5,8 +5,10 @@ def main():
 
     if user_input > 5:
         print "%s is greater than 5" % str(user_input)
+    elif user_input > 2:
+        print "%s is greater than 2" % str(user_input)
     else:
-        print "%s is not greater than 5" % str(user_input)
+        print "%s is not greater than 5 or 2" % str(user_input)
         
 
 if __name__ == '__main__':
